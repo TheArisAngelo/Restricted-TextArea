@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+textarea.max-reached {
+  border-color: red;
+}
+
+.char-count {
+  font-size: 14px;
+  color: #555;
+}
+
+.char-count.max-reached {
+  color: red;
+}
+
+
